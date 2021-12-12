@@ -139,7 +139,7 @@
                             <div class="form-group {{ $errors->has('student') ? 'has-error' : '' }}">
                                 <label>Students</label>
                                 <select class="form-control" name="student">
-                                    <option selected = "true" disabled>Select student</option>
+                                    <option selected="true" disabled>Select student</option>
                                     <!-- student list -->
                                     @foreach($students AS $student)
                                         <option value="{{ $student->id }}">{{ $student->name }}</option>
@@ -149,7 +149,7 @@
                             <div class="form-group {{ $errors->has('student') ? 'has-error' : '' }}">
                                 <label>Term</label>
                                 <select class="form-control" name="term_id">
-                                    <option selected = "true" disabled>Select term</option>
+                                    <option selected="true" disabled>Select term</option>
                                     <!-- term list -->
                                     @foreach($terms AS $term)
                                         <option value="{{ $term->id }}">{{ $term->term }}</option>
