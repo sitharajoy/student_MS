@@ -48,7 +48,6 @@
                                 </thead>
                                 @php
                                     $i = 1;
-                                    $totalMarks = 0;
                                     $termId = '';
                                 @endphp
                                 <tbody>
@@ -57,6 +56,10 @@
                                         <tr>
                                                 <td>{{ $i++ }}</td>
                                                 <td>{{ $markDetails->students->name }}</td>
+                                                
+                                                @php
+                                                    $totalMarks = 0;
+                                                @endphp
 
                                                 @foreach($markDetails->students->marks AS $marks)
                                               
