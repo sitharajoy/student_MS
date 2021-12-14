@@ -12,7 +12,7 @@ Project Name: <b>Student MS</b>
 How to run this Project
 <ul>
     <li>Download with git clone https://github.com/sitharajoy/student_MS.git</li>
-    <li>cd student-MS</li>
+    <li>cd student_MS</li>
     <li>composer install</li>
     <li>cp .env.example .env</li>
     <li>npm install</li>
